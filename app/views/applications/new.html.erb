@@ -1,0 +1,20 @@
+<h1>Application Page</h1>
+
+<%= form_for :applications, url: applications_path do |f| %>
+  <p>
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= f.label :q1, "How do you like your steak" %><br>
+    <%= f.text_area :q1 %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+<%= link_to "back", applications_path %>
+

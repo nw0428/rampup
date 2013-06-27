@@ -1,0 +1,17 @@
+<h1>List Students</h1>
+
+
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Steak</th>
+	</tr>
+
+	<% @apps.each do |app| %>
+	<tr>
+		<td><%= app.name %></td>
+		<td><%= app.q1 %></td>
+		<td><%= link_to 'Show', applications_path %></td>
+	</tr>
+	<% end %>
+</table>
