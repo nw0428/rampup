@@ -7,7 +7,7 @@ Rampup::Application.routes.draw do
 
   get "welcome/index"
   
-
+  match 'viewapps' => 'applications#viewapps'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
