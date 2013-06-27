@@ -1,3 +1,10 @@
+Notes:
+The landing page is in app/views/welcome and it is called index.html.erb. Feel free to treat it like a normal html file
+The css page for it is in app/assets/stylesheets again treat it like a normal css file
+
+
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
